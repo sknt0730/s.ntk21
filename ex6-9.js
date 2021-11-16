@@ -1,3 +1,3 @@
-function tetchange1() {
+function txtchange1() {
     document.getElementById("txt1").innerHTML="ナンバーワン！" ;
 }
