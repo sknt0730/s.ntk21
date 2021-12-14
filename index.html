@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title> Web開発の練習4月27日</title>
   <link rel="stylesheet" href="mystyle.css"><!--この行を追加-->
+  <link rel="stylesheet" href="imagechange.css">
   <script src="myjs.js"></script> <!--この行を追加-->
   <script src="ex6-1.js"></script>
   <script src="ex6-4.js"></script>
@@ -12,7 +13,12 @@
   <script src="ex6-8.js"></script>
   <script src="ex6-9.js"></script>
   <script src="ex06-10.js"></script>
+  <script src="ex6-11.js"></script>
   <script src="ex7-1.js"></script>
+  <script src="ex7-3.js"></script>
+  <script src="ex7-3.5.js"></script>
+  <script src="ex7-5.js"></script>
+  
 </head>
 <body>
   <!--文字の大きさの練習-->
@@ -296,9 +302,9 @@ onclick="saygoodbye();">
     <input type="button" value="戻す"
     onclick="imgchange2();">
    
-     <img src="image/josai.png"
-     id="logo" alt="Josai
-    Logo">
+     <img  src="image/josai.png"
+     id="logo" alt="Josai 
+    Logo" class="imagechange">
     
   
 
@@ -315,7 +321,7 @@ onclick="saygoodbye();">
     <h1>練習問題7－1、テキスト入力の練習</h1>
     <br>
         <input type="button" value="あいさつ"
-      onclick="sayhallo71();">
+      onclick="sayhello71();">
         <p>誰？<input type="text" id="who71"></p>
 
   <br>
@@ -329,10 +335,17 @@ onclick="saygoodbye();">
   <br>
   <h2>BMI計算</h2>
   <br>
-  <p>体重:<input type="number" id="weight"></p>
-  <p>身長:<input type="number" id="height"></p>
+  <p>体重(kg):<input type="number" id="weight"></p>
+  <p>身長(m):<input type="number" id="height"></p>
   <p><input type="button" value="計算" onclick=" calcBmi();"></p>
 
+  <br>
+  <h2>練習問題7-5</h2>
+  <h3>なぞなぞ</h3>
+  <p>目を閉じてないと見られないものはなーに？</p>
+<p>答（漢字１文字で）:<input type="text" id="answer">
+<input type="button" value="解答" onclick="nazo();">
+</p>
  
 </body>
 </html>
