@@ -3,3 +3,5 @@ function add() {
     var y =document.getElementById('input2').value;
     alert(Number(x)+Number(y)) ;
 }
+
+

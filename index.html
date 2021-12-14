@@ -19,6 +19,8 @@
   <script src="ex7-3.js"></script>
   <script src="ex7-3.5.js"></script>
   <script src="ex7-5.js"></script>
+  <script src="ex7-8.js"></script>
+  <script src="ex7-9.js"></script>
   
 </head>
 <body>
@@ -345,7 +347,7 @@ onclick="saygoodbye();">
   <br>
   <p>体重(kg):<input type="number" id="weight"></p>
   <p>身長(m):<input type="number" id="height"></p>
-  <p><input type="button" value="計算" onclick=" calcBmi();"></p>
+  <p><input type="button" value="計算" onclick=" calcBmi();" id="bmi"></p>
 
   <br>
   <h2>練習問題7-5</h2>
@@ -354,6 +356,15 @@ onclick="saygoodbye();">
 <p>答（漢字１文字で）:<input type="text" id="answer">
 <input type="button" value="解答" onclick="nazo();">
 </p>
+<h2>練習問題7-8</h2>
+<input type="text" id="answer2">
+<input type="button" value="解答" onclick="nazonazo();">
  
+<br>
+<h2>練習問題7-9</h2>
+<p>閏年か平年か調べよう！</p>
+<p>西暦で入力してください。（例　1999）:<input type="text" id="year">
+<input type="button" value="解答" onclick="year();">
+</p>
 </body>
 </html>
