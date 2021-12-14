@@ -8,6 +8,6 @@ function hyoji() {
         function starfnc(){
             setInterval('hyoji(),1000');
         }
-    /*function mes() {
+    function mes() {
         alert('3秒経ちました！');
-    }*/
+    }
